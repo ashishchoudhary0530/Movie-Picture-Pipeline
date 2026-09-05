@@ -25,4 +25,4 @@ def test_movies_endpoint_returns_valid_data():
         assert len(data["movies"]) > 0
         assert "title" in data["movies"][0]
 
-## This is the test file for the backend application.
+# This is the test file for the backend application.
